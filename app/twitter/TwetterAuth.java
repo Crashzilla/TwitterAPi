@@ -10,19 +10,19 @@ package twitter;
 public enum TwetterAuth {
 	
 	/* Insert here your personal "Consumer Key (API Key)" from Twitter */
-	API_KEY("xxx"),
+	API_KEY("7a1Xsmki44SiWq7lgzGzSrhW8"),
 	/* Insert here your personal "Consumer Secret (API Secret)" from Twitter */
-	API_SECRET("xxx"),
+	API_SECRET("a9OU88s5PQ41UlWFFu0ZRxqZKmAzKWK4qMYhoJpAjjcJGkP7hP"),
 	/* Insert here your personal "Access Token" from Twitter */
-	ACCESS_TOKEN("xxx"),
+	ACCESS_TOKEN("469755089-6jRLw61dINKgdbnswQBEpiXJgVPCvlHjhDdgvDej"),
 	/* Insert here your personal "Access Token Secret" from Twitter */
-	ACCESS_TOKEN_SECRET("xxx"),
+	ACCESS_TOKEN_SECRET("ik1dQq8MO9auRxjdITGE5dTSqboEjINZyjFuoZlaXD9Jb"),
 	
 	
 	/* Insert here your name "Owner"  from Twitter */
-	OWNER("xxx"),
+	OWNER("ViniciusDuart37"),
 	/* Insert here your "Owner ID" from Twitter */
-	OWNER_ID("xxx");
+	OWNER_ID("469755089");
 	
 	private String key;
 

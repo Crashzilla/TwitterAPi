@@ -26,11 +26,11 @@ public class TwitterDef {
 		super();
 		 b = new ConfigurationBuilder();
 		 
-		 b.setOAuthConsumerKey(TwetterAuth_vpanarello.API_KEY.getKey());
-		 b.setOAuthConsumerSecret(TwetterAuth_vpanarello.API_SECRET.getKey());
+		 b.setOAuthConsumerKey(TwetterAuth.API_KEY.getKey());
+		 b.setOAuthConsumerSecret(TwetterAuth.API_SECRET.getKey());
 		 
 		 factory = new TwitterFactory(b.build());
-		 act = new AccessToken(TwetterAuth_vpanarello.ACCESS_TOKEN.getKey(), TwetterAuth_vpanarello.ACCESS_TOKEN_SECRET.getKey());
+		 act = new AccessToken(TwetterAuth.ACCESS_TOKEN.getKey(), TwetterAuth.ACCESS_TOKEN_SECRET.getKey());
 		 
 		 tweet = factory.getInstance(act);		
 	}
